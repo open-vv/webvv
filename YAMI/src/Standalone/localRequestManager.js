@@ -46,6 +46,7 @@ function localRequestManager() {
           if (files.hasOwnProperty(prop))
             ++total_files_i;
 
+        let text = "";
         for (let prop in files)
           if (files.hasOwnProperty(prop))
             p = p.then(_ => {
